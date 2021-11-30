@@ -11,6 +11,10 @@ body {
   background-size: cover;
 }
 
+.flex-container {
+  display: flex;
+}
+
 .menu {
   position:fixed;
   top: 0;
@@ -27,7 +31,7 @@ body {
 
 .izquierda {
   margin-left: 15%;
-  margin-right: 50%;
+  margin-right: 50%; 
 }
 
 #logoadobe {
@@ -79,7 +83,7 @@ h3 {
   width: 160px;
 }
 
-.pie {
+footer {
   background-color: rgb(32, 32, 32);
   color: white;
   padding-left: 15%;
